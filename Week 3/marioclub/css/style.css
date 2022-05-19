@@ -82,6 +82,10 @@ article {
     background-color: #ffffff;
 }
 
+article p::first-line {
+    font-weight: bold;
+}
+
 .join {
     background-color: #f3f3f3;
     text-align: center;
