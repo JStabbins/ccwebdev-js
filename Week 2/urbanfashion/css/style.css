@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    width: auto;
+
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.background {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    box-sizing: border-box;
+
+
+}
+
+.container {
+    background-image: url("../images/lady.png");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: right;
+
+}
+
+nav {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 80px;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    margin-right: 600px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#333;
+
+}
+
+
+.cart {
+    width: 60px;
+    cursor: pointer;
+}
+
+.logo {
+    width: 260px;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 800px;
+    width: 40%;
+}
+
+section .btn {
+    display: inline-block;
+    background: linear-gradient(45deg, #87adfe, #ff77cd);
+    border-radius: 6px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 44px rgb(94, 58, 100)
+}
+
+.arrow {
+    width: 40px;
+    padding: 25px 0px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.social-icons img {
+    width: 20px;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+    list-style: none;
+}
+
+section {
+    margin-bottom: 100px;
+
+}
+
+h1 {
+    padding: 25px 0px;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: 100;
+}
